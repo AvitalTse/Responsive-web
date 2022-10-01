@@ -1,0 +1,67 @@
+.me-s-auto {
+  margin-right: none;
+  margin-left: auto;
+}
+.carousel-indicators {
+  position: relative;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.card {
+  text-align: center;
+}
+[class*="carousel-control-"] {
+  background-color: black;
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  margin: auto 10px;
+  font-size: 20px;
+}
+.footer {
+  color: white;
+  margin: none 20px;
+}
+.span {
+  color: lightslategray;
+  font-size: 12px;
+}
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    width: 100%;
+    height: auto;
+  }
+  .carousel {
+    display: none;
+  }
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-toggler {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 15px;
+    border: 0;
+    border-radius: 0;
+    text-align: left;
+    background-color: #6c757d;
+  }
+  .navbar-toggler-icon {
+    display: none;
+  }
+  .navbar-phone {
+    font-weight: 600;
+    color: white;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .navbar-phone {
+    display: none;
+  }
+}
